@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">hybrid-android</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Go to Flutter activity</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Je suis un titre</string>
+</resources>
