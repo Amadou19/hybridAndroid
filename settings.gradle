@@ -19,3 +19,10 @@ evaluate(new File(                                                     // new
         settingsDir.parentFile,                                              // new
         'flutter_module/.android/include_flutter.groovy'                         // new
 ))*/
+include ':flutter_module'
+project(':flutter_module').projectDir = new File('../flutter_module')
+setBinding(new Binding([gradle: this]))
+evaluate(new File(
+        settingsDir,
+        'flutter_module/.android/include_flutter.groovy'
+))
